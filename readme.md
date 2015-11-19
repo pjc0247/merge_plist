@@ -37,13 +37,13 @@ Usage (Ruby)
 require 'merge_plist'
 
 merged = MergePlist::merge(
-  File.read("plist1.plist"),
-  File.read("plist2.plist"),
-  File.read("plist3.plist"))
+  File.read("a.plist"),
+  File.read("b.plist"),
+  File.read("c.plist"))
 ```
 
 Usage (Shell)
 ----
 ```
-merge_plist plist1.plist plist2.plist plist3.plist
+merge_plist a.plist b.plist c.plist
 ```
